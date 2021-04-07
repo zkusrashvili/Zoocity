@@ -44,32 +44,32 @@ a, a:hover{
  background-size: cover;
 }
 
-.z-in{
+.zindex{
   z-index: 9999;
   width: 100%;
 }
 
-.z-in:first-child{
+.zindex:first-child{
  background-color: #343632e6;
 }
 
-.z-in:nth-child(2){
+.zindex:nth-child(2){
  top: 2.5rem;
 }
 
-.leng .list-inline-item:not(:last-child) {
+.geru .list-inline-item:not(:last-child) {
  margin-right: 0rem;
  padding: 8px 0 7px;
 }
 
-.leng .list-inline-item a {
+.geru .list-inline-item a {
 font-size: 15px;
 color: #ffffff;
 font-family: bpg;
 }
 
 
-.menu .list-inline-item:not(:last-child) {
+.subnav-menu .list-inline-item:not(:last-child) {
  margin-right: 25px;
  padding: 8px 0 7px;
 }
@@ -98,7 +98,7 @@ font-family: bpg;
   padding: .5rem 1rem .3rem;
 }
 
-.menu .list-inline-item a {
+.subnav-menu .list-inline-item a {
 font-size: 15px;
 color: #ffffff;
 font-family: bpg;
@@ -118,7 +118,7 @@ font-family: bpg;
 .dropdown-menu{
   padding: 0 0;
   min-width: 17rem;
-  top:95%;
+  top:88%;
   border-radius: 5px;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
@@ -156,21 +156,21 @@ display: none;
   background-color: #fff;
 }
 
-.carousel-captions h3{
+.carousel-text h3{
   font-size: 24px;
   margin-top: 12.5rem;
   color: #fff;
   font-family: bpg;
 }
 
-.carousel-captions p{
+.carousel-text p{
   font-size: 17px;
   margin-top:1.5rem;
   color: #fff;
   font-family: arial;
 }
 
-.carousel-captions a{
+.carousel-text a{
   color: #fff;
   font-size: 17px;
   margin-top: 30px;
